@@ -16,3 +16,12 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+
+git clone https://github.com/blackyau/luci-app-suselogin.git package/luci-app-suselogin
+
+git clone https://github.com/DFlinmo/UA2F package/UA2F
+cd package/UA2F
+git checkout 20210531T234622
+cd ../..
